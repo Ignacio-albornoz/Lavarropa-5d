@@ -5,14 +5,17 @@ using namespace std;
 //tipoDeVariable nombreVariable = valorInicial
 
 int main(){
-    int N;
-    int LA;
-    int LB;
-    int SB;
-    int SA;
+    
+    int N, LA, LB, SB, SA;
 
-    //int N, LA, LB, SB, SA;
-    //int numPrendas, minLavarropas, maxLavarropas, minSecarropas, maxSecarropas;
+    cin >> N;
+    cin >> LA >> LB;
+    cin >> SB >> SA;
 
-    cout << "Declarando variables";
+    /*cin >> numPrendas;
+    cin >> minLavarropas >> maxLavarropas;
+    cin >> minSecarropas >> maxSecarropas;*/
+
+    //Salida ?
+    cout << N << LA << LB << SB << SA;
 }
