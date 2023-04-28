@@ -2,8 +2,6 @@
 
 using namespace std;
 
-//tipoDeVariable nombreVariable = valorInicial
-
 int main(){
     
     int N, LA, LB, SB, SA;
