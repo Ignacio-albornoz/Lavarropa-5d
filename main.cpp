@@ -10,11 +10,26 @@ int main(){
 
     cin >> N;
     cin >> LA >> LB;
-    cin >> SB >> SA;
+    cin >> SA >> SB;
 
-    /*cin >> numPrendas;
-    cin >> minLavarropas >> maxLavarropas;
-    cin >> minSecarropas >> maxSecarropas;*/
+
+    if (N >= LA) {
+        if (N <= LB) {
+            if (N >= SA) {
+                if (N <= SB) {
+                    cout << "Posible" << endl;
+                } else {
+                    cout << "Imposible" << endl;
+                }
+            } else {
+                cout << "Imposible" << endl;
+            }
+        } else {
+            cout << "Imposible" << endl;
+        }
+    } else {
+        cout << "Imposible" << endl;
+    }
 
     //Salida ?
     cout << N << LA << LB << SB << SA;
