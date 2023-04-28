@@ -12,7 +12,6 @@ int main(){
     cin >> LA >> LB;
     cin >> SA >> SB;
 
-
     if (N >= LA) {
         if (N <= LB) {
             if (N >= SA) {
@@ -31,6 +30,4 @@ int main(){
         cout << "Imposible" << endl;
     }
 
-    //Salida ?
-    cout << N << LA << LB << SB << SA;
 }
