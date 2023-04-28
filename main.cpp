@@ -2,6 +2,17 @@
 
 using namespace std;
 
+//tipoDeVariable nombreVariable = valorInicial
+
 int main(){
-    cout << "Hola Mundo";
+    int N;
+    int LA;
+    int LB;
+    int SB;
+    int SA;
+
+    //int N, LA, LB, SB, SA;
+    //int numPrendas, minLavarropas, maxLavarropas, minSecarropas, maxSecarropas;
+
+    cout << "Declarando variables";
 }
