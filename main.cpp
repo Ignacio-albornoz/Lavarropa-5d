@@ -12,25 +12,9 @@ int main(){
     cin >> LA >> LB;
     cin >> SA >> SB;
 
-
-    if (N >= LA) {
-        if (N <= LB) {
-            if (N >= SA) {
-                if (N <= SB) {
-                    cout << "Posible" << endl;
-                } else {
-                    cout << "Imposible" << endl;
-                }
-            } else {
-                cout << "Imposible" << endl;
-            }
-        } else {
-            cout << "Imposible" << endl;
-        }
+    if(N >= LA && N <= LB && N >= SA && N <= SB ){
+        cout << "Posible" << endl;
     } else {
         cout << "Imposible" << endl;
     }
-
-    //Salida ?
-    cout << N << LA << LB << SB << SA;
 }
